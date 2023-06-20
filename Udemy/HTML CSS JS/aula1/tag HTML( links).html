@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links de sites</title>
+</head>
+
+<body>
+    <h1 style="color: blue;">Cabeçalho</h1>
+    <h1>Cabeçalho</h1>
+    <!-- a diferença entre a tag b e strong, é pq a strong é semantica, tem um significado uma palavra vai forte
+    ja a b deixa apenas em negrito -->
+    <p><b> Lorem ipsum</b> dolor <strong> sit amet </strong>consectetur adipisicing elit.
+        Iusto dolores provident harum aliquid quo voluptas
+        dolore sit modi cum eius accusamus distinctio numquam enim repellat
+        doloremque iste nostrum, beatae ipsam?</p>
+    <!-- não posso colocar o blockquote dentro da tag p -->
+    <blockquote>bloco dde citação para textos</blockquote>
+
+    <!-- faz uma linha na pagina  -->
+    <hr>
+    <!-- a tag i deixa em italico 
+    a tag em, tbm deixa em itálico mas e para enfase -->
+
+    <p>Lorem ipsum <b><i> dolor sit amet</i></b> consectetur adipisicing elit.
+        Iusto dolores provident <em>harum aliquid </em>quo voluptas
+        dolore sit modi cum eius accusamus distinctio numquam enim repellat
+        doloremque iste nostrum, beatae ipsam?</p>
+
+    <!-- para colocar um link, usa a tag "a" e ela tem uma ref  podendo ser um artigo ou um site -->
+    <P><a href="https://www.airbnb.com.br/rooms/12868289?adults=2&check_in=2024-01-09&check_out=2024-01-13&source_impression_id=p3_1674094249_M87em7KLMaiY0dfy"
+            target="_blank">
+            <!-- a função target é a forma de abrir o link -->
+            https://www.airbnb.com.br/rooms/12868289?adults=2&check_in=2024-01-09&check_out=2024-01-13&source_impression_id=p3_1674094249_M87em7KLMaiY0dfy</a>
+    </P>
+    <!-- pode colocar o link de acesso na imagem, so fechar a tag "a" depois do img -->
+    <!-- colocar a imagem é a tag img,
+     src é aonde esta a imagem
+    alt é o texto alternativo , semantico, dizendo oq é e descrevendo
+    width e height são as dimenssões dela -->
+    <p>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABIFBMVEXjAAv///8AAAD/7QDWAArlAAv/8AD/8gD/9AD/8QD/9gD8/Pz/+ADc3Nz09PT6+vru7u7/6gA3NzdwcHDm5uaJiYnUxQBMTEyVlZXKysq1tbUqKiohISGrq6saGhp9fX1YWFg/Pz/FxcWPhQD2rAV0dHRiYmKysrKcnJzW1taOjo7y4QDl1QD+4wHIugD45wC3qgDIAArzmwbqUAmwAAn81QIlIwD1pAXfzwCpnQAqJwBFQAD4ugQSEhLsZQj5xAPnMgnvfwfxigaBeABbVQA1MQASEQBnYADtbQjueAjrWAj7zQOPAAcqAAKvogCXjAA+OgAbGQBsZADpQgltAAUeAAKoAAg9AAODAAZMAAQSAABhAAUiAAK9AAl0AAb4wARzk3vyAAAS4klEQVR4nO1ca1saSxKGQeYmiihiUFHBSzAwoBi8RFRA442cmKPZs9k9m+P//xc707fpoapnJufsPvtMdt4PySP0NPV2V1dVV/dURvvZkflfC/Bfx/8Hw8OZnxWHjOFM/mfFjGCY+TmRMkw+UobJR8ow+UgZJh8pw+QjZZh8pAyTj5Rh8pEyTD5ShslHyjD5SBkmHynD5CNlmHykDJOPlGHykTJMPlKGyUfKMPlIGSYfKcPkI2WYfKQMk4+UYfKRMkw+UobJR8ow+UgZJhfkbZLMX2FInw/Hy/143KMY37+Eth8e3T88jB7uL4+G8STJD18eLx+PXhTN8/nfPn367sr4Zxge9QZ9u0BQmgx6R5i8lyevTqFg26YLwzDcf2274AxGw4i2totCwXk9uUdaiidGOxPDe8KmzUtXOw9TzfPvtX99/ar97fDH3wp6HJQKpqXnGHTLLJR2giRfehPbNqwchGXak4dA26PexLQNfbqhbpiF/s4jJtPljiMLIDcPEPzN09JP2uEPMhz1TURywxwMRd+jvmECiSVhbGfM2w7HfVPdVjfsfm8Y/P1hz0HGQzTnPecz2m+Hv/z9l6/5b//4IYaPfZU8RolN49gJo0dFMftktIc7pai2ulk6kfkNcqFPuM3HbAr/mf/+z5mM9n5Gm4nPML8jund1k8DQxSfGi9vkUubnqo5pWDqDZZhi8HXblXvHNqaakraW21BWQiM34gLsmFNPEJiB5qbjjV7+29f8d+3TN5fVL+9jM3xxTD5S3VbnbNvF0+dKi4+q7rgiFAQHU2+1D56ubz7eahTHN9uf210+AGY/ZwhZjS5teuw2uz3+crf9dNDq+uNhXw29338omVLnp5+fru9uXDxfb591pOZk9PKffncZftPe5/P/+h6X4WWOdmFZlesvmo/zpzb9ZeNkIoagVNm+0RB8vK5YdB1z8Q2r/fnuV9jyw/NBy2aNDOcoM3y1+Szpp0+g8+Pnz23b4iOSd+m5Wpr/TZs51DIxGd5TmXSzcw6kuabfsVHU7fb2R4weG5GO7euU3f0Mu+O4fa6wpnpp5Bj8iTPVEzcVpiFmP5P/+7eZr5n87+9//yOmpXmkJMwWPjUt38Da7Ts1PSpJy+TSbkc1bdt84uh/4U+cn9LmRj9/qP3hOv2Zf/wS0+MPS5TggaLr2xZXqO51hNAeOh5FIxfFz8OT7s+4lTuLan5Nm5tXLjnvb0IzDsM+mSPjSdnzDRvjznEMqTXtwI7d9KYlLE7lS3TzL1Sd7J47d9+/z8SN2npk8o2wMe94HdtgjNdX9pZ2Nzc3d3dXAp9XdGyuL9bXN8CHHxhFI3ICafM2oWgeZX4g8n4hq9yUf2HvzdtGtdHcEx88u4pnB4bgYrM2N1+czXLMl5uLvhzB9byx2WwszM/PF4vuP+VGcykgc1f3bO9z4In6cm3fe4K235ObkxHR+1z6OAwn3qhYFV+empC7LIS2cqZMcHM/i6C6qEGs1cqw5f6y3+DGyuld2YJurRan2ze2xLfndCmO4zN8IKZP565bW5Z7LnK1askqujyP8fMgCU6xhA6Fi9k3os2Z3ZX8zzIyIC7mxDrYJovKic/Q8cbEFlZmNdhxjX186s/xypyKH6C4Fda0zGW+bfszuITz8yCGpK1LkxjNsOdNod5WEMyW2ecHwjQuoz8vsC4RfBvedJarnm92p38+AD7azwVpJUYzpG6Au/E3073OTwvRDJdaiKFpi+rpwIbDxUbYlGf9WTwlavcYj+HAM6RGh2sV6HQ+KINWixJ6jrfci+QnNaZDAgzMNJheb5OQYicWw2GBzCFfB3DUpxi+ixR6gbVcikEwm5X9RjRBPiIfur6aRjEceJ7C4NEa0FHXrAcIxpiXuR8hmG34fV8sxGjPVm6FqOkwBsMjEiBYbHuzgXTZlAleKL2Ej1Wq7rPRLT0s+J2r3EoAbESePDW172MwfLXkaAYzZIHwoxpDBuIuNmIMBcFsnfcducApaOM7shBPohke0ZCQ/caKukeK3dgiRNhECdxhQBuHY8VfiNYgmuEgMIXYDFVlhnEmhmh1lEdBGEZ7Fop3tLkXnOqTSIY05O4eh4zipkQwjh7tK5UBxyyz/4iNw8HsghfWUGMaynDHiJpCWUnXYhiPuQuVjpZrm7tNaC3nmc9HO2s0oNZQQ0Z3c04UwyGJYLsfQqawITEMDagoaDyD+MwiM1iAYlnZd/UC/aIqMSxFMSRTKHwhaqwlS7oYRW/+Ld07rcOBX+C7KjC7DVXfzA/XpxWHfX5gxGFIkwds34KuHclbYcNMf31+oVzer77Zu1Au1yJ3CdCpbyr6Lq4pnpAY6lFaSjYVFo9I0Sn0o2jtAuG/tuhibX3jQpOwBhsKTYArgWw/kXCNb8IAwwZjaEVbmjzZFxbCpjArJV8QQ7qrYYDz0VB30lD0zfdskDyzNJUY3mJE9oV8X9vACEoxKTKFwX0Bxzps6GefgKKQ9YnEgsJJgUBY8hZRHr9Pgle2LwQLmkCaJMSHy+mhsClc9b+cdut0FWyCR/z1D+yy5PHp9knJ8DGwtUeduWxnoCdTTCEcqjX/2ylTuo9+6tPQECdN1/RtKzouJQGbzbKaG+jOzE8VYRFpICQXgHO9qvx2n1ooxFWIB6DxpeN1ThITozCGQzKFLbZtwmMmSTQ4zGUNA7Kk6vL38kLk+zKo174JhwaQfv5sijSGiiFxFSJgQ/eekqtA4h1fkWTALFU12OBdmajxfLkpUjRheg1Ugq0NksYoDMMYOsTbs4MCfD8uZXcRj7y7u9ysra7W3u3KWWC4QwDKXN9bWtqT1ia0M5IJB7rzln5+QDZFmRCGl7ac5kZ3c9LgX4QmUGb3RT4azjWuzDLgj/uDAn0UiwS8ZBsNaVQMr0hOlR0V1FHB/TQ6MsxT4DYJelVcmSXAH5dMOFR6qjDHninVr0IYDsnhRov1g24a5AxU9I59SzHkkrW6WFzZ293d3QpYHsz4Susf+IpZ+vkNUcGwbOKY2BmWyMddxY/sKrhLgCa5wbpYX94XS7S8Kp/EwZUrfQu+Y0uHGBrzIYQhjWeOVaqQDa6fGHv7/XBp3005EX+a4MqVIgm4OpiHIbtDcv9FwfDRkENSVAfl7EWMPKYiecHGCS5PEQbAkw3paAdmHdiI+TkMBUOy9bWfVaOYDWa642TBVvG5fqMg6Ie8YPRm/R9eB8tngUZBH71EvfUawtDbN+mtW9UoZoMmME4Cagmfa2L50Dz5nGr0GmFKGliGIzVD4gxF9gJLERYlgnGUlOSToLSq1elhUTG80o4FKilbO2QZ5l7UDHdIQMBO2tEsr5zK/wtKSgRSHGDsKYbX/+FFEM4VWfhEzEjYGXBOdoZYDrEo35iIo6SL6FzRTCG6t2YGpQ4+lnYiMGXHVPvOFlsnnCFRUhF0Y78u+dxYyWiyaqElrYYpOTFC0N1LkZRy20jybOalmiFRUv1GNVB+nkvDhxlgVdETUVI8e8DmEJBYCP1hpqQtsmvIqBmWZCXFnOFbeQqjj0RrCnWfvQhj6K3DC/CdpKRwdTAlJfezaI4GZ0jSF8Zn2hoNyOQpjDxQKzPjB/cfzLQrtNTz3dDKSZZUmWE8888OcYYnnhYX2LE2trmX0w7YOq01V+eKxVkXxf2aiKOhyWUC4RuT2TVsmhb8zCtigtk39E5URs2QxKTdECUN3I9A8qhszqauqEGl4t9sYh6XxHPAiDX8/mCGmn1JDkd9JYUMX7xlaDF3jy0S6Vc0zNoFv1dL5MfuG5ur6HnFGqDupy+R5cPMLLGk9qWaIbnjxWNSbFsR3L/BZYjn2KA2B+wV+CHPzoJwruirDxxZNmIkjyjcPcaQZBH1X1XyT08RnGScIDyt2JK/BjPsGRpgBKSNE7RPLI9wbftXaVCGeW8Z8o0Tcg6WDd4ThYJPjYBykrLyMl2bNoxldHz9YBGaJ+6kyT0T41HN8EWXLqsiUf9U8g/a800NBTA0gZQ4mC3CBSxO31dAC8gs/LEduFyKMLy3pdMKJOScOoyAywG7Qaoh0WdgqIDOeZoCT81FeyTaZ7pFnKG4W4oxJCEbv80JLfL0YQQQHD+tQDjIXhVMIVHSOvopAbQPPDHWJRHbMIThxFuGp6w5HKnp8yTgsUiItrG2sre0tLS16DtoMB/SBgxQocEAWCMN/gDihJndup5yhghDRzr3hctwfuvd22q12qgtMWUEpmhppVn1F8l8lQ0JPHKS5hDaRfIxME7Cv8BVyFWHXLssPIYwJFcR+YXtsHs9sw3PdsHLW+CD6jo+TX6+FcpLY3Wwv+dziISSbApJ0C07Q8iQJjCYoVHsTTmXunpjIKMcrlcryP5yXfHzVOmRiJQPF30nYhTGkBw5ddmBTMR1zoWYl5tqOMPssivwFjaKTdUAz60pNIsZUnpL38mHMSR5RL43jBJ9K951unlUS9XgGwiMfBlN3nL1pZv7cSaMoRez8d1vpFTNWBeZSfSCHG4rwWOG8EUigd/QPDfktxAUDGVnEXmXshnzCp5nd+MzFKFAbIY8bURWodkLZ+hFpdxZROYnduPcvM7SnED8C6UiXo15ZVbkbs4LyCoEDB2JYeSFx7V4N0qzPyKuFFPEuo+b9fcCxBeao8x/jqGX+I5z7Zl443grNiLUQcF1lKTy9elViGop3ztFaakXlUS8HyOJEG8hBnJAsa4Fc1d43CXhzGUUQ+90m18Tihp2oh0xZKjHX1XBvVmcRxZ44u+ARKRXgCDmLWL6QypN9I1tNi0bMSaxESAYR035SQXd2uf0YSTDniG9IRO6yHjfUSdPC9w2RqeORWTNX8WLePFLuph6TN/OGkOCaFxqsrteoRELT3tFhDVFP+sRYZVm/cPdFn/hN2L4xNVi7ZRklyYIQbC3CJxvh9zc9pMVoUa9KGfmQn2i/4KkVrH52SU8QJOxL1JvZBHmrJcYDElQI24+K2UqyomyEItUDWaFQ97rkQ6VO2ZO5wLUQxyu/wh5ByhXwHQUMqT3TMR792jkNBs4XdO0C4XkZZA6VbjYWTl3WrEDLx2rYreqnz+gb8WaryhBwHBYIjZJvPkOX0qV7tQJLMHJnq9iqeFF+I5ytvxG6vC2QubD9F9m36pCVZ1flbR/m6poX/ECJcgIk/2TNIbaXm2OqcrswlxjOZgvFVipzUkvps+tLskHVNvSS9Bry/uS/VjYbwYyw+dtXvJEep29vlyVxtnrXL4a/0T9hDPECUKGQ9J/sHbAxmJ9ZaVeXwvcude0u9Nb+c+1laV3zTfvdrfqU5P8ZJrBN/Xre8vNWu3N5l59qsDAdUmUf+kGq4csruxtLm/uLoHOO7TIhv6oIIicPfWomkQXrdi2jVZIEROBAxurtoChQgt30CoqXXXVEx/nrHSMqSSInQH36Rv7ETJ96Lji6GjxhwDuaCWTQuc2quU2K8pj9CnP6L61M1rzRLdgOBrGcMgqtXQ+qLu+fepScexO6DSed0RVodZzWEPtWhRqGWR69OVjM7xv7ZqVgdFL6hlU3BhipTa6qlomH594iRmv1RlSIojirpOTKztV0OI2Ho7dDnn9Hs+rnRR43+oCKNtt9ojhoJ4+jGHmXhS8QUoA/bpdCVbcMnMH2JI5P2uxikk5VmPGMk5RxbvuiA5Nh9YMY7Po9t1BC/o8d0SdsILCD4YyzByVmGxGodt5uvl4/KuL4483z2edbkHQE5W+jELr4PoDX2i3x1+ezyq6qKumm68DUUHKrjzd+PNy+/H582lBlICzdFG77CHHPrRsy5VA6vz82n3EFo/k8EgmimFmOBFqaHn1APWcZdkF25Qq6ZnO+LEvym8ZZqHUrrg4bbdsW6oap5vOvRsqlURpL9M2W6eVjotKu1QItLyS1O1lIupJuRIUuu1T3rkpP/I6jCCofqNkLIqHYXDl9nJa+Z7cilVmC7TjFfaGA6lYHynL5pVnk1pa5tWUQRw5Us0svPN+iA2NZJgZnujKCnsFvzLgSclWtPLaSVUSj16lEnRgwMwBUmBy7BSw6ovsEXsSg1/4G5Z5r6zhdA1GyzScQCXI/AgtfugK7ZwEjdzwpIS0dBXcmIwVQeXlIIc94gkxXVLxzzD0hBoPHCdn0xqCpp1znMEY2ubh+MprROsCelUBzZJzNcaqfj72+o5us2KDbkvbcpydB6ShRLI3cUq0SKjl1RC0rRIqxJ9kSHB0f/8wGo9HD/dHQ2U/L/fjk8Hr1dXVYKc3CqvGmj/yWl5NJpPByfjhUdmj/Mjw8mHcO9kZ7Jy4fcd6RHr4p62yy5EyTD5ShslHyjD5SBkmHynD5CNlmHykDJOPlGHykTJMPlKGyUfKMPlIGSYfKcPkI2WYfKQMk4+UYfKRMkw+UobJR8ow+UgZJh8pw+QjZZh8pAyTj5Rh8pEyTD5ShslHyjD5SBkmHynD5OP/iuHPCs7wcOZnxSFj+HMjZZh8/BsH1BCr9l6TkwAAAABJRU5ErkJggg=="
+            alt="" width="50" height="100">
+    </p>
+    <!-- as tag dell e ins são usada para "apagar" e "corrigir" de forma semantica,as de riscar e sublinhar 
+    são respectivamente a "s" e "u"-->
+    <p>
+        <del>vermelho </del><ins>azul </ins>
+    </p>
+    <p>
+        <s>riscar</s> <u>sublinhar</u>
+    </p>
+    <!-- tag small - para diminuit fonte
+    tag sub - p ficarembaixo
+    tag sup ára ficar em expoente -->
+    <p>
+        <small> pequena </small> 2<sup>2</sup> H<sub>2</sub>O
+    </p>
+    <!-- a tag pre não pode ficar numa tag p mas elaa deixa uma linha de codigo formatada  -->
+    <pre> <code>
+let soma = 0;
+
+inputsMais.forEach((input) =>{
+    const valor = input.value;
+    const numero = Number(valor);
+    if(numero){
+        soma += numero;
+    } 
+    console.log(soma);
+});
+        </code>
+    </pre>
+</body>
+
+</html>

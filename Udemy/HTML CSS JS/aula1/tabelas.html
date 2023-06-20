@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+
+        table {
+            /* vai tirar os espaços entre as colunas da tabela
+            unir as bordas */
+            border-collapse: collapse;
+            width: 500px;
+        }
+        caption{
+            caption-side: top;
+            text-align: left;
+            font-style: italic;
+            font-size: 14px;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+
+        }
+        tfoot td{
+            background-color: rgba(42, 19, 65, 0.466);
+            font-style: italic;
+            font-family: serif;
+        }
+
+        table td,
+        table th {
+            border: 1px solid #ccc;
+            padding: 5px;
+            text-align: left ;
+        }
+
+        /* metodo p fazer apenas a tabela mexer  */
+        .responsive-table{
+            max-width: 100%;
+            overflow-x: auto;
+            
+        } 
+        
+    </style>
+</head>
+
+<body>
+    
+    <p>Lorem ipsum dolor sit.</p>
+<!-- colocar um rolamento da tabela -->
+    <div class="responsive-table">
+    <table><!-- usa o caption para descrever a tabela -->
+        <caption>descrição da tabela</caption>
+        <!-- thead é o cabeçalho da tabela -->
+        <thead>
+            <!-- tr é utilizada p linhas -->
+            <tr><!-- th é para os titulos da coluna -->
+                <th> titulo 1</th>
+                <th> titulo 2</th>
+                <th> titulo 3</th>
+            </tr>
+        </thead>
+        <!-- corpo da tabela usa o tbody 
+        pode ser duplicado-->
+        <tbody>
+            <!-- o tbody tbm recebe uma linha tr -->
+            <tr>
+                <!-- td é usado para o tbody -->
+                <td>corpo 1</td>
+                <td>corpo 2</td>
+                <td>corpo 3</td>
+            </tr>
+            <tr>
+                <!-- para ocupar duas colunas ou mais usa o colspan
+                para ocupar as linhas coloca oa row span -->
+                <td colspan="2", rowspan="2">corpo 4</td>
+                
+                <td>corpo 6</td>
+            </tr>
+            <tr>
+                
+                <td>corpo 9</td>
+            </tr>
+        </tbody>
+        <!-- nota de rodape mais comum para ter total de valores -->
+        <tfoot>
+            <tr>
+                <td>corpo 7</td>
+                <td>corpo 8</td>
+                <td>corpo 9</td>
+            </tr>
+        </tfoot>
+
+    </table>
+    </div>
+</body>
+
+</html>

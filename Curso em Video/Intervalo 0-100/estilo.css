@@ -1,0 +1,36 @@
+body{
+    background: rgba(107, 107, 241, 0.486);
+    font: normal 15pt arial;
+
+}
+
+header{
+    color: #fff;
+    /* CENTRALIZANDO TEXO */
+    text-align: center;
+
+}
+select#res{
+    width: 200px;
+}
+section{
+    background-color: #fff;
+    /* arredondando a borda */
+    border-radius: 10px;
+    /* espaço dentro */
+    padding: 15px;
+    /* largura */
+    width: 500px;
+    /* centralizando */
+    margin: auto;
+    /* colocar sombra:  baixo, lateral e espalhamento */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
+
+}
+footer{
+    color: #fff;
+    /* CENTRALIZANDO TEXO */
+    text-align: center;
+    font-style: italic;
+
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <!-- acessar um arquivo externo
+    quando clicar no arquivo sublinhado dará erro, então cria o arquivo -->
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+
+<body>
+    <!-- cabeçalho -->
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>Ano de Nascimento: 
+                <input type="number" name="txtano" id="txtano">
+            </p>
+            <p><!-- criando a opção de masculino e femino o label da o nome -->
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="masc">Masculino</label> <br>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+            
+        </div>
+
+        <div id="resultado">
+            Preencha os dados acima.
+        </div>
+    </section>
+    <!-- rodape -->
+    <footer>
+        <p>Teste de alvaro</p>
+    </footer>
+    <!-- mesmo esquema do link no head -->
+    <script src="script.js"></script>
+</body>
+
+</html>

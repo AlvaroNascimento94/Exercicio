@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- acessar um arquivo externo
+    quando clicar no arquivo sublinhado dará erro, então cria o arquivo -->
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+
+<body>
+    <!-- cabeçalho -->
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+
+    <section>
+        <div id='teste'>
+            <p> Numero:<input type="number" name="tabuada" id="tabuada""> 
+                 <input type="button" value="Gerar Tabuada" onclick="calcular()">
+            </p>
+
+        </div>
+
+        <div>
+            <!-- o select tenho criar option  -->
+            <select name="tabuada" id="res" size="10">
+            </select>
+
+        </div>
+    </section>
+    <!-- rodape -->
+    <footer>
+        <p>Teste de alvaro</p>
+    </footer>
+    <!-- mesmo esquema do link no head -->
+    <script src="script.js"></script>
+</body>
+
+</html>
